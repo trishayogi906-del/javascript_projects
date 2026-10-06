@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 4</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body class="bg-black ">
+    <nav class=" h-auto w-full  space-x-4 flex justify-center p-5 bg-gray-200">
+        <a class="rounded-sm bg-slate-500 p-6 w-90  font-bold text-2xl" herf="/" aria-current="page">Home</a>
+        <a class="rounded-sm bg-slate-500 p-6 w-70  font-bold text-2xl" target="_blank"
+            href="https://www.youtube.com">Youtube channel</a>
+    </nav>
+    <div id="wrraper" class="bg-gray-400 w-auto flex flex-col items-center ">
+        <h1 class="text-xl font-bold ">Number guessing game</h1>
+        <p class="font-semibold p-1 ">Try and guess a random number between 1 and 100.</p>
+        <p class="font-semibold p-1 ">You have 10 attempts to guess the right number</p>
+        <br />
+        <form action="" class="form pt-10 flex flex-col items-center space-y-10">
+            <label for="guessfield" id="guess" class="text-4xl font-semibold space-y-6 ">Guess a number</label>
+            <input type="text" id="guessfield" class="guessfield p-2 ">
+            <input type="submit" id="subt" value="Submit guess"
+                class="guessSubmit p-4 rounded-lg bg-orange-600 font-bold">
+        </form>
+        <div class="resultparas">
+            <p class="text-xl font-semibold p-2">Previous Guesses: <span class="guesses"></span></p>
+            <p class="text-xl font-semibold p-2">Guesses Remaining: <span class="lastresult">10</span></p>
+            <p class="lowOrHi text-2xl font-semibold"></p>
+        </div>
+    </div>
+
+</body>
+<script src="project4.js"></script>
+
+</html>

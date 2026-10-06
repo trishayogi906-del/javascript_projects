@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body class="bg-gray-500">
+    <nav class=" h-auto w-full  space-x-4 flex justify-center p-5 bg-gray-100">
+        <a class="rounded-sm bg-slate-500 p-6 w-90  font-bold text-2xl" herf="/" aria-current="page">Home</a>
+        <a class="rounded-sm bg-slate-500 p-6 w-70  font-bold text-2xl" target="_blank"
+            href="https://www.youtube.com">Youtube channel</a>
+    </nav>
+    <div class="container pl-4">
+        <h1 class="text-2xl font-bold pl-8">BMI Calculator</h1>
+        <form action="" method="get">
+            <p class="p-6"><label for="">Height in CM: </label><input type="text " id="height" /> </p>
+            <p class="p-6"> <label for="">Weight in CM: </label><input type="text " id="weight" /></p>
+            <div class="pl-32 pb-6"><button class="bg-white border-2 border-black rounded-md w-28 ">Calculate</button>
+            </div>
+            <div id="result" class="text-2xl text-gray-300 font-semibold pl-32"></div>
+            <div id="weight-guide" class="flex flex-col pl-24">
+                <h3 class="font-semibold text-xl p-3">BMI Weight Guide</h3>
+                <p class="p-2 ">Under Weight = less than 18.6</p>
+                <p class="p-2 ">Normal Range = 18.6and 24</p>
+                <p class="p-2 ">Overweight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="second.js"></script>
+
+</html>
